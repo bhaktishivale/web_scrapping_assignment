@@ -119,8 +119,6 @@ web_scrapping_assignment/
 ├── main.py
 ├── requirements.txt
 ├── README.md
-├── AI_USAGE.md
-└── INTERVIEW_NOTES.md
 ```
 
 `processing/schema.py` holds the shared field list and allowed source names. `processing/records.py` maps a raw scraper row through the cleaning functions.
@@ -286,6 +284,4 @@ No test requires live network access.
 - Request delay is polite but not adaptive beyond 429 retries.
 - Local verification used Python 3.9; the assignment asks for 3.10–3.12. Prefer 3.10+ when submitting if the company environment requires it.
 
-## 22. AI usage summary
 
-Cursor (Grok 4.6) was used to implement the pipeline from the assignment text, write tests, run pytest, run `python main.py`, and draft documentation. See `AI_USAGE.md` for a full account. Review the code yourself before an interview; you need to be able to explain every file.
